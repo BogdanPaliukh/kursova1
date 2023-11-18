@@ -11,7 +11,7 @@ function Gallery(){
 
     useEffect(() => {
         try {
-            const res = axios.get("http://192.162.0.162:5005/news")
+            const res = axios.get("http://192.168.0.162:5005/news")
                 .then(res =>{
                     setData(res.data)
                     console.log(res.data)
