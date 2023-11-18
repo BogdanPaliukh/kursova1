@@ -9,7 +9,7 @@ function News(){
 
     useEffect(() => {
         try {
-            const res = axios.get("http://localhost:5001/news")
+            const res = axios.get("http://localhost:5002/news")
                 .then(res =>{
                     setData(res.data)
                     console.log(res.data)
